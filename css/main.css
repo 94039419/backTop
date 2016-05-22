@@ -1,0 +1,93 @@
+.icon-copy:before {
+    content: "\e900";
+}
+.icon-mobile:before {
+    content: "\e901";
+}
+.icon-bubbles3:before {
+    content: "\e902";
+}
+.icon-arrow-up:before {
+    content: "\e903";
+}
+
+
+a{
+	text-decoration:none;
+	}
+
+.tool{
+	position:fixed;
+	left:50%;
+	top:40%;
+	}
+	
+.tool_bar{
+	width:52px;
+	height:52px;
+	display:block;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E4%BE%A7%E6%A0%8F%E5%B7%A5%E5%85%B7%E6%9D%A1%E5%BC%80%E5%8F%91/img/toolbar.png)0 0 no-repeat;
+	position:relative;
+	transition:all 1s;
+	}
+
+	
+.tool_advice{							
+	background-position:0 -426px;
+	}
+.tool_advice:hover{
+	background-position:0 -488px;
+	}
+	
+.tool_app{
+	background-position:0 -550px;
+	}
+.tool_app:hover {
+	background-position:0 -612px;
+	}
+.tool_app:hover .app_dl{
+	transform:scale(1);
+	opacity:1;
+	visibility:visible;
+	}
+	
+.tool_backTop{
+	background-position:0 -674px;
+	}
+.tool_backTop:hover{
+	background-position:0 -736px;
+	}	
+	
+	
+.tool_weixin{
+	background-position:0 -798px;
+	}
+.tool_weixin:hover{
+	background-position:0 -860px;
+	}
+.tool_weixin:hover .weixin_dl{
+	transform:scale(1);
+	opacity:1;
+	visibility:visible;
+	}
+	
+.span_com{
+	position:absolute;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E4%BE%A7%E6%A0%8F%E5%B7%A5%E5%85%B7%E6%9D%A1%E5%BC%80%E5%8F%91/img/toolbar_img.png)center center no-repeat;
+	right:52px;;
+	bottom:-5px;;
+	width:172px;
+	height:205px;
+	opacity:0;
+	transform:scale(0.01);
+	transition:all 1s;
+	transform-origin:90% 90%;
+	}
+	
+.app_dl{
+	background-position:0 0;
+	}
+
+.weixin_dl{
+	background-position:0 -211px;
+	}

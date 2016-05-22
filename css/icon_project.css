@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?jxx0o1');
+    src:    url('fonts/icomoon.eot?jxx0o1#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?jxx0o1') format('truetype'),
+        url('fonts/icomoon.woff?jxx0o1') format('woff'),
+        url('fonts/icomoon.svg?jxx0o1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-copy:before {
+    content: "\e900";
+}
+.icon-mobile:before {
+    content: "\e901";
+}
+.icon-bubbles3:before {
+    content: "\e902";
+}
+.icon-arrow-up:before {
+    content: "\e903";
+}
+
+
+
+a{
+	text-decoration:none;
+	display:block;
+	
+	}
+
+i{
+	display:block;
+	font-style:normal;	
+	}
+
+span{
+	display:block;
+	}
+
+
+.tool_bar{
+	width:52px;
+	height:52px;
+	left:50%;
+	top:200px;
+	position:relative;
+	}
+.tool_bar:hover .conten_com:before{
+	margin-top:-52px;
+
+	}	
+.you:hover .you:before{
+	opacity:1;
+	transform:scale(1)
+	
+	}
+	
+.conten_com{
+	width:52px;
+	height:52px;
+	position:absolute;
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	 /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	
+	width:52px;
+	height:52px;
+	position:absolute;
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	}
+
+.conten_com:before{
+	content:"\e900";
+	display:block;
+	width:52px;
+	height:52px;
+	background:#CCC;
+	color:#F0F;
+	transition:all 1s;
+	text-align:center;
+
+	}
+.conten_com:after{
+	content:"短信\A发送";
+	display:block;
+	width:52px;
+	height:52px;
+	background:#666;
+	color:#FFF;
+	text-align:center;
+	padding-top:12px;
+	}
+
+
+.you:before{
+	content:"";
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E4%BE%A7%E6%A0%8F%E5%B7%A5%E5%85%B7%E6%9D%A1%E5%BC%80%E5%8F%91/img/toolbar_img.png)no-repeat center center;
+	width:205px;
+	height:172px;
+	position:absolute;
+	right:26;
+	bottom:0;
+	background-position:0 0;
+	transform-origin:95% 95%;
+	opacity:0;
+	transform:scale(0.01);
+	transition:all 1s;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
